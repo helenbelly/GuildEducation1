@@ -46,7 +46,7 @@ public class OrderProcess {
             double totalFoodForLargeDog=largeDog*30;
 
             double totalFoodNeeded=totalFoodForSmallDog+totalFoodForMediumDog+totalFoodForLargeDog;
-            System.out.println("Total Food "+totalFoodNeeded);
+            System.out.println("Total Food in lbs : "+totalFoodNeeded);
             System.out.println("Enter remaining food from last month");
             double remainingFoodFromLastMonth=input.nextDouble();
             double foodNeedToOrder= totalFoodNeeded-remainingFoodFromLastMonth;
